@@ -1,0 +1,135 @@
+/* Main styling */
+.main {
+    background-color: #8a8787;
+}
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Card styling */
+.metric-card {
+    background-color: rgb(95, 94, 94);
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 1rem;
+}
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.metric-label {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Account headers */
+.account-header {
+    padding: 0.5rem 1rem;
+    border-radius: 5px 5px 0 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.account1-header {
+    background-color: #34a853;
+}
+.account2-header {
+    background-color: #fbbc05;
+}
+.account3-header {
+    background-color: #ea4335;
+}
+
+/* Tab headers */
+.tab-header {
+    background-color: #4285f4;
+    padding: 0.5rem 1rem;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Row styling */
+.win-row {
+    background-color: #e6f4ea;
+}
+.loss-row {
+    background-color: #fce8e6;
+}
+
+/* Status indicators */
+.status-ok {
+    background-color: #e6f4ea;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+.status-caution {
+    background-color: #fef7e0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+.status-warning {
+    background-color: #fce8e6;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Improve contrast for status indicators */
+.status-ok {
+    background-color: #e6f4ea;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #0f5323; /* Dark green text for better contrast */
+}
+
+.status-caution {
+    background-color: #fef7e0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #7e4f00; /* Dark amber text for better contrast */
+}
+
+.status-warning {
+    background-color: #fce8e6;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #7f1d1d; /* Dark red text for better contrast */
+}
+
+/* Fix Recent Trades section */
+.trade-card {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.win-trade {
+    background-color: #e6f4ea;
+    color: #0f5323; /* Dark text on light background */
+}
+
+.loss-trade {
+    background-color: #fce8e6;
+    color: #7f1d1d; /* Dark text on light background */
+}
+
+/* Make general text visible on all backgrounds */
+.main-text {
+    color: #333; /* Dark text for light backgrounds */
+}
+
+/* Override text color for dark sections */
+.dark-section {
+    color: white;
+}

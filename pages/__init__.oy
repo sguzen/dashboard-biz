@@ -1,0 +1,8 @@
+# Make page functions available from the pages package
+import streamlit as st
+
+from pages.dashboard import show as show_dashboard
+from pages.accounts import show as show_account
+from pages.trade_journal import show as show_trade_journal
+from pages.risk_calculator import show as show_risk_calculator
+from pages.analytics import show as show_analytics

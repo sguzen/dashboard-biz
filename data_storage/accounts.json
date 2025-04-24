@@ -1,0 +1,38 @@
+{
+    "Account 1": {
+        "name": "Account 1",
+        "strategy": "Hourly Quarters",
+        "starting_balance": 150000,
+        "risk_per_trade": 0.01,
+        "daily_stop": 0.02,
+        "weekly_stop": 0.05,
+        "color": "#34a853",
+        "header_class": "account1-header",
+        "current_balance": 147250,
+        "start_date": "2025-01-15"
+    },
+    "Account 2": {
+        "name": "Account 2",
+        "strategy": "930 Strategy",
+        "starting_balance": 150000,
+        "risk_per_trade": 0.01,
+        "daily_stop": 0.02,
+        "weekly_stop": 0.05,
+        "color": "#fbbc05",
+        "header_class": "account2-header",
+        "current_balance": 151320,
+        "start_date": "2025-01-15"
+    },
+    "Account 3": {
+        "name": "Account 3",
+        "strategy": "Lab Strategy",
+        "starting_balance": 100000,
+        "risk_per_trade": 0.0075,
+        "daily_stop": 0.025,
+        "weekly_stop": 0.06,
+        "color": "#ea4335",
+        "header_class": "account3-header",
+        "current_balance": 116030.0,
+        "start_date": "2025-02-01"
+    }
+}
